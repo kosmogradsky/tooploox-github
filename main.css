@@ -1,0 +1,121 @@
+body {
+  margin: 0px;
+}
+
+body,
+input,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+.search-form {
+  padding: 24px;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+.search-input-container {
+  flex-grow: 1;
+  margin-right: 16px;
+  background-color: #f0f3f4;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 8px;
+}
+
+.search-input {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  background-color: #f0f3f4;
+  margin-left: 8px;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+
+.search-button {
+  padding: 12px;
+  background-color: #452cdc;
+  color: white;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  letter-spacing: 0.4px;
+  line-height: 12px;
+}
+
+.user-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+}
+
+.user-section {
+  padding: 24px;
+  display: grid;
+  grid-template-columns: min-content auto;
+}
+
+.user-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 16px;
+  align-self: end;
+}
+
+.user-bio {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.4px;
+  color: #828282;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  grid-column: 1 / -1;
+}
+
+.repo-section-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  grid-column: 1 / -1;
+  padding-bottom: 16px;
+}
+
+.repo-link {
+  grid-column: 1 / -1;
+  display: block;
+  background: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: #2f80ed;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+
+.repo-link:hover {
+  text-decoration: underline;
+}
+
+.warning-message {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.4px;
+  color: #828282;
+  grid-column: 1 / -1;
+}
